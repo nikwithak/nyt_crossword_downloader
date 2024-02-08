@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+pushd /home/nik/remarkable_crossword_downloader/;
+python ./sync_crosswords_to_remarkable.py;
+popd;
